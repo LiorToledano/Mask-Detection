@@ -10,18 +10,19 @@ The following project shows the feasibility of the solution and examines a numbe
 
 
 # Model Selection
-faster RCNN with different backbone - from smaller ones like mobileNet to vgg19 to resNet 50.
-I tried resNet101 but Unfortunately, we couldn't load the model and the data to the GPU simultaneously. ( At this projects i used 12gb memo GPU)
+* I used faster RCNN with different backbone - from smaller ones like mobileNet to vgg19 up to resNet 50.
+* I tried resNet101 but Unfortunately, I couldn't load the model and the data to the GPU simultaneously. (At this projects I used 12gb memory GPU)
 
 
 # Hyperparametes search
-we did some testing with..
-Epochs number - 10 , 50 ,100
-Different learning rates: 0.01 - 0.0003.
-Different optimizers: Adam & SGD - with weight decay and momentum.
+
+* Epochs number - 10 , 50 ,100
+* Different learning rates: 0.01 - 0.0003.
+* Different optimizers: Adam & SGD - with weight decay and momentum.
 
 
 # Summary
-At this project I examined a number of detection models, In order to identify and localize in the pictures people who wear a mask, do not wear or do not wear properly.
+At this project I examined a number of detection models, In order to identify and localize in pictures people who wear a mask, do not wear or do not wear it properly.
 
-I started by building a dirty implementation in order to find the best hyperparameters tune and then ran them on larger and deeper models and hopefully get better results, so it was.
+I started by building a dirty implementation in order to find the best hyperparameters tune.
+The secoud stage was to do some experiments on larger and deeper detection models hopefully to get better results, and so it was.
